@@ -67,7 +67,9 @@ public class VertxVert extends AbstractVerticle {
     private void deployFirstVerticle() {
         JsonObject jsonDepOptions = new JsonObject();
         jsonDepOptions.put("isolationGroup", UUID.randomUUID().toString());
-        jsonDepOptions.put("extraClasspath", Lists.newArrayList("/Users/aradhakrishnan/Desktop/WorkSpace/ExampleVerticle/Jar1Loc"));
+        String s = System.getProperty("user.dir");
+        String cp = s.substring(0, s.length() - 12) + "Jar1Loc";
+        jsonDepOptions.put("extraClasspath", Lists.newArrayList(cp));
         DeploymentOptions depOptions = new DeploymentOptions(jsonDepOptions);
         this.vertx.deployVerticle("java:ExVert1.java", depOptions, ar -> {
             if (ar.succeeded()) {
@@ -96,7 +98,9 @@ public class VertxVert extends AbstractVerticle {
     private void deploySecondVerticle() {
         JsonObject jsonDepOptions = new JsonObject();
         jsonDepOptions.put("isolationGroup", UUID.randomUUID().toString());
-        jsonDepOptions.put("extraClasspath", Lists.newArrayList("/Users/aradhakrishnan/Desktop/WorkSpace/ExampleVerticle/Jar2Loc"));
+        String s = System.getProperty("user.dir");
+        String cp = s.substring(0, s.length() - 12) + "Jar2Loc";
+        jsonDepOptions.put("extraClasspath", Lists.newArrayList(cp));
         DeploymentOptions depOptions = new DeploymentOptions(jsonDepOptions);
         this.vertx.deployVerticle("java:ExVert2.java", depOptions, ar -> {
             if (ar.succeeded()) {
