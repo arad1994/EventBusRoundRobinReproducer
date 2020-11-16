@@ -7,7 +7,7 @@
 
 ##### Steps to run ->
 1) Start Docker 
-2) Start Zookeeper
+2) Start Zookeeper ``` Run docker-compose up inside MainVerticle folder```
 3) Open the project in IntellliJ and import this runConfiguaration ```MainVerticle/runConfigurations/RunStuff.xml ``` and run
 
 
