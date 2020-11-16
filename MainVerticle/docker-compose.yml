@@ -1,0 +1,23 @@
+version: '3.5'
+
+# It is much easier to set this up if you install the embedded docker plugin for Intellij
+# Set up a runtime config and point it to the docker-compose.yml file
+# This way you can just click the "run" icon in the compose file to get it running
+#
+#  its also a good idea to run brew install zookeeper on your mac so you can get the zkCli client to interact
+#  with the container
+#
+#  https://zookeeper.apache.org/doc/r3.3.3/zookeeperStarted.html#sc_ConnectingToZooKeeper
+#  Doc to connect and play
+#
+
+services:
+  zoo1:
+    image: zookeeper
+    restart: always
+    hostname: zoo1
+    ports:
+      - 2181:2181
+
+
+
