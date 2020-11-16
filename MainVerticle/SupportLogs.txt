@@ -1,0 +1,1934 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54922:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/lib/tools.jar:/Users/aradhakrishnan/Desktop/WorkSpace/ExampleVerticle/MainVerticle/target/classes:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-circuit-breaker/4.0.0-milestone5/vertx-circuit-breaker-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-rx-java2/4.0.0-milestone5/vertx-rx-java2-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-rx-java2-gen/4.0.0-milestone5/vertx-rx-java2-gen-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-rx-gen/4.0.0-milestone5/vertx-rx-gen-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-codegen/4.0.0-milestone5/vertx-codegen-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-health-check/4.0.0-milestone5/vertx-health-check-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-auth-common/4.0.0-milestone5/vertx-auth-common-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-web/4.0.0-milestone5/vertx-web-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-web-common/4.0.0-milestone5/vertx-web-common-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-bridge-common/4.0.0-milestone5/vertx-bridge-common-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-opentracing/4.0.0-milestone5/vertx-opentracing-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/jaegertracing/jaeger-client/1.0.0/jaeger-client-1.0.0.jar:/Users/aradhakrishnan/.m2/repository/io/jaegertracing/jaeger-thrift/1.0.0/jaeger-thrift-1.0.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar:/Users/aradhakrishnan/.m2/repository/com/squareup/okhttp3/okhttp/3.9.0/okhttp-3.9.0.jar:/Users/aradhakrishnan/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/aradhakrishnan/.m2/repository/io/jaegertracing/jaeger-core/1.0.0/jaeger-core-1.0.0.jar:/Users/aradhakrishnan/.m2/repository/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar:/Users/aradhakrishnan/.m2/repository/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar:/Users/aradhakrishnan/.m2/repository/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar:/Users/aradhakrishnan/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/aradhakrishnan/.m2/repository/io/jaegertracing/jaeger-tracerresolver/1.0.0/jaeger-tracerresolver-1.0.0.jar:/Users/aradhakrishnan/.m2/repository/io/opentracing/contrib/opentracing-tracerresolver/0.1.8/opentracing-tracerresolver-0.1.8.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-core/4.0.0-milestone5/vertx-core-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-common/4.1.49.Final/netty-common-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-buffer/4.1.49.Final/netty-buffer-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-transport/4.1.49.Final/netty-transport-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-handler/4.1.49.Final/netty-handler-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-codec/4.1.49.Final/netty-codec-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-handler-proxy/4.1.49.Final/netty-handler-proxy-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-codec-socks/4.1.49.Final/netty-codec-socks-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-codec-http/4.1.49.Final/netty-codec-http-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-codec-http2/4.1.49.Final/netty-codec-http2-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-resolver/4.1.49.Final/netty-resolver-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-resolver-dns/4.1.49.Final/netty-resolver-dns-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-codec-dns/4.1.49.Final/netty-codec-dns-4.1.49.Final.jar:/Users/aradhakrishnan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-config/4.0.0-milestone5/vertx-config-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-config-kubernetes-configmap/4.0.0-milestone5/vertx-config-kubernetes-configmap-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-web-client/4.0.0-milestone5/vertx-web-client-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/reactivex/rxjava2/rxjava/2.1.14/rxjava-2.1.14.jar:/Users/aradhakrishnan/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-service-discovery/4.0.0-milestone5/vertx-service-discovery-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-micrometer-metrics/4.0.0-milestone5/vertx-micrometer-metrics-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/io/micrometer/micrometer-core/1.1.0/micrometer-core-1.1.0.jar:/Users/aradhakrishnan/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/aradhakrishnan/.m2/repository/io/vertx/vertx-ignite/4.0.0-milestone5/vertx-ignite-4.0.0-milestone5.jar:/Users/aradhakrishnan/.m2/repository/org/apache/ignite/ignite-core/2.8.1/ignite-core-2.8.1.jar:/Users/aradhakrishnan/.m2/repository/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar:/Users/aradhakrishnan/.m2/repository/org/jetbrains/annotations/16.0.3/annotations-16.0.3.jar:/Users/aradhakrishnan/.m2/repository/org/gridgain/ignite-shmem/1.0.0/ignite-shmem-1.0.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/ignite/ignite-spring/2.8.1/ignite-spring-2.8.1.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-core/4.3.26.RELEASE/spring-core-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-aop/4.3.26.RELEASE/spring-aop-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-beans/4.3.26.RELEASE/spring-beans-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-context/4.3.26.RELEASE/spring-context-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-expression/4.3.26.RELEASE/spring-expression-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-tx/4.3.26.RELEASE/spring-tx-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/org/springframework/spring-jdbc/4.3.26.RELEASE/spring-jdbc-4.3.26.RELEASE.jar:/Users/aradhakrishnan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/aradhakrishnan/.m2/repository/org/apache/ignite/ignite-slf4j/2.8.1/ignite-slf4j-2.8.1.jar:/Users/aradhakrishnan/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar:/Users/aradhakrishnan/.m2/repository/org/apache/ignite/ignite-indexing/2.8.1/ignite-indexing-2.8.1.jar:/Users/aradhakrishnan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/aradhakrishnan/.m2/repository/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/lucene/lucene-analyzers-common/7.4.0/lucene-analyzers-common-7.4.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/lucene/lucene-queryparser/7.4.0/lucene-queryparser-7.4.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/lucene/lucene-queries/7.4.0/lucene-queries-7.4.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/lucene/lucene-sandbox/7.4.0/lucene-sandbox-7.4.0.jar:/Users/aradhakrishnan/.m2/repository/com/h2database/h2/1.4.197/h2-1.4.197.jar:/Users/aradhakrishnan/.m2/repository/org/apache/ignite/ignite-zookeeper/2.8.1/ignite-zookeeper-2.8.1.jar:/Users/aradhakrishnan/.m2/repository/org/apache/curator/curator-framework/4.2.0/curator-framework-4.2.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/curator/curator-recipes/4.2.0/curator-recipes-4.2.0.jar:/Users/aradhakrishnan/.m2/repository/org/apache/curator/curator-x-discovery/4.2.0/curator-x-discovery-4.2.0.jar:/Users/aradhakrishnan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar:/Users/aradhakrishnan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar:/Users/aradhakrishnan/.m2/repository/org/apache/curator/curator-client/4.2.0/curator-client-4.2.0.jar:/Users/aradhakrishnan/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/aradhakrishnan/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/aradhakrishnan/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/aradhakrishnan/.m2/repository/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar:/Users/aradhakrishnan/.m2/repository/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar:/Users/aradhakrishnan/.m2/repository/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final.jar:/Users/aradhakrishnan/.m2/repository/org/apache/zookeeper/zookeeper-jute/3.5.5/zookeeper-jute-3.5.5.jar:/Users/aradhakrishnan/.m2/repository/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar:/Users/aradhakrishnan/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar org.example.PreLauncherVerticle run org.example.vertLauncher.VertxVert
+log4j:WARN No appenders could be found for logger (io.vertx.core.logging.LoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Console logging handler is not configured.
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Ignite work directory is not provided, automatically resolved to: /Users/aradhakrishnan/Desktop/WorkSpace/ExampleVerticle/MainVerticle/ignite/work
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:
+
+>>>    __________  ________________
+>>>   /  _/ ___/ |/ /  _/_  __/ __/
+>>>  _/ // (7 7    // /  / / / _/
+>>> /___/\___/_/|_/___/ /_/ /___/
+>>>
+>>> ver. 2.8.1#20200521-sha1:86422096
+>>> 2020 Copyright(C) Apache Software Foundation
+>>>
+>>> Ignite documentation: http://ignite.apache.org
+
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Config URL: n/a
+[19:35:47]    __________  ________________
+[19:35:47]   /  _/ ___/ |/ /  _/_  __/ __/
+[19:35:47]  _/ // (7 7    // /  / / / _/
+[19:35:47] /___/\___/_/|_/___/ /_/ /___/
+[19:35:47]
+[19:35:47] ver. 2.8.1#20200521-sha1:86422096
+[19:35:47] 2020 Copyright(C) Apache Software Foundation
+[19:35:47]
+[19:35:47] Ignite documentation: http://ignite.apache.org
+[19:35:47]
+[19:35:47] Quiet mode.
+[19:35:47]   ^-- Logging by 'JavaLogger [quiet=true, config=null]'
+[19:35:47]   ^-- To see **FULL** console log here add -DIGNITE_QUIET=false or "-v" to ignite.{sh|bat}
+[19:35:47]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: IgniteConfiguration [igniteInstanceName=vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, pubPoolSize=8, svcPoolSize=8, callbackPoolSize=8, stripedPoolSize=8, sysPoolSize=8, mgmtPoolSize=4, igfsPoolSize=8, dataStreamerPoolSize=8, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=8, sqlQryHistSize=1000, dfltQryTimeout=0, igniteHome=null, igniteWorkDir=/Users/aradhakrishnan/Desktop/WorkSpace/ExampleVerticle/MainVerticle/ignite/work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@424ced1d, nodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, marsh=BinaryMarshaller [], marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, netCompressionLevel=1, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=ZookeeperDiscoverySpi [zkRootPath=/apacheIgnite, zkConnectionString=localhost:2181, joinTimeout=10000, sesTimeout=30000, clientReconnectDisabled=false, internalLsnr=null, stats=ZookeeperDiscoveryStatistics [joinedNodesCnt=0, failedNodesCnt=0, commErrCnt=0]], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$FirstConnectionPolicy@1d024160, chConnPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@5b6028b7[Count = 1], stopping=false, metricsLsnr=null], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@468b4b32, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@669d4dad, addrRslvr=null, encryptionSpi=org.apache.ignite.spi.encryption.noop.NoopEncryptionSpi@6df4195c, clientMode=false, rebalanceThreadPoolSize=4, rebalanceTimeout=10000, rebalanceBatchesPrefetchCnt=3, rebalanceThrottle=0, rebalanceBatchSize=524288, txCfg=TransactionConfiguration [txSerEnabled=false, dfltIsolation=REPEATABLE_READ, dfltConcurrency=PESSIMISTIC, dfltTxTimeout=0, txTimeoutOnPartitionMapExchange=0, deadlockTimeout=10000, pessimisticTxLogSize=0, pessimisticTxLogLinger=10000, tmLookupClsName=null, txManagerFactory=null, useJtaSync=false], cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=100000, sysWorkerBlockedTimeout=null, clientFailureDetectionTimeout=30000, metricsLogFreq=0, hadoopCfg=null, connectorCfg=ConnectorConfiguration [jettyPath=null, host=null, port=11211, noDelay=true, directBuf=false, sndBufSize=32768, rcvBufSize=32768, idleQryCurTimeout=600000, idleQryCurCheckFreq=60000, sndQueueLimit=0, selectorCnt=4, idleTimeout=7000, sslEnabled=false, sslClientAuth=false, sslCtxFactory=null, sslFactory=null, portRange=100, threadPoolSize=8, msgInterceptor=null], odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=null, memCfg=null, pstCfg=null, dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysRegionMaxSize=104857600, pageSize=0, concLvl=0, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=3435973836, initSize=268435456, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=false, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=false, checkpointPageBufSize=0, lazyMemoryAllocation=true], dataRegions=null, storagePath=null, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, maxWalArchiveSize=1073741824, walSegments=10, walSegmentSize=67108864, walPath=db/wal, walArchivePath=db/wal/archive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=131072, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.AsyncFileIOFactory@7a441016, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false, walCompactionEnabled=false, walCompactionLevel=1, checkpointReadLockTimeout=null, walPageCompression=DISABLED, walPageCompressionLevel=null], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, handshakeTimeout=10000, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true, sslEnabled=false, useIgniteSslCtxFactory=true, sslClientAuth=false, sslCtxFactory=null, thinCliCfg=ThinClientConfiguration [maxActiveTxPerConn=100]], mvccVacuumThreadCnt=2, mvccVacuumFreq=5000, authEnabled=false, failureHnd=null, commFailureRslvr=DefaultCommunicationFailureResolver []]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Daemon mode: off
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: OS: Mac OS X 10.15.5 x86_64
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: OS user: aradhakrishnan
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: PID: 9100
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Language runtime: Java Platform API Specification ver. 1.8
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: VM information: Java(TM) SE Runtime Environment 1.8.0_171-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.171-b11
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: VM total memory: 3.6GB
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Remote Management [restart: off, REST: on, JMX (remote: off)]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Logger: JavaLogger [quiet=true, config=null]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: IGNITE_HOME=null
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: VM arguments: [-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54922:/Applications/IntelliJ IDEA CE.app/Contents/bin, -Dfile.encoding=UTF-8]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemRegionInitialSize property to change the setting.
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'default' dataRegion: ['__vertx.*', '*']]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Initial heap size is 256MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[19:35:47] OS: Mac OS X 10.15.5 x86_64
+[19:35:47] VM information: Java(TM) SE Runtime Environment 1.8.0_171-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.171-b11
+[19:35:47] Please set system property '-Djava.net.preferIPv4Stack=true' to avoid possible problems in mixed environments.
+[19:35:47] Initial heap size is 256MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[19:35:47] Configured plugins:
+[19:35:47]   ^-- None
+[19:35:47]
+[19:35:47] Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Configured plugins:
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- None
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Configured failure handler: [hnd=StopNodeOrHaltFailureHandler [tryStop=false, timeout=0, super=AbstractFailureHandler [ignoredFailureTypes=UnmodifiableSet [SYSTEM_WORKER_BLOCKED, SYSTEM_CRITICAL_OPERATION_TIMEOUT]]]]
+Nov 15, 2020 7:35:47 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Successfully bound communication NIO server to TCP port [port=47100, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[19:35:48] Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Collision resolution is disabled (all jobs will be activated upon arrival).
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Security status [authentication=off, tls/ssl=off]
+[19:35:48] Security status [authentication=off, tls/ssl=off]
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: DataRegionConfiguration.maxWalArchiveSize instead DataRegionConfiguration.walHistorySize would be used for removing old archive wal files
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Configured data regions initialized successfully [total=3]
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Evict partition permits=2
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger warning
+WARNING: Serialization of Java objects in H2 was enabled.
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Client connector processor has started on TCP port 10800
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11211]
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Non-loopback local IPs: 10.0.0.157, 10.90.37.152, fe80:0:0:0:44ba:14ff:fe88:ff7d%awdl0, fe80:0:0:0:44ba:14ff:fe88:ff7d%llw0, fe80:0:0:0:4c3:2be1:8cfb:6823%utun0, fe80:0:0:0:aede:48ff:fe00:1122%en5, fe80:0:0:0:ff39:240e:34e8:574e%utun1
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Enabled local MACs: 025041000101, 46BA1488FF7D, 8C8590CB338E, ACDE48001122
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Start Zookeeper discovery [zkConnectionString=localhost:2181, sessionTimeout=30000, zkRootPath=/apacheIgnite]
+Nov 15, 2020 7:35:48 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: ZooKeeper client state changed [prevState=Disconnected, newState=Connected]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Node started join [nodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, instanceName=vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, zkSessionId=0x100000073a3001d, joinDataSize=8939, consistentId=0:0:0:0:0:0:0:1%lo0,10.0.0.157,10.90.37.152,127.0.0.1:47100, initTime=74, nodePath=/apacheIgnite/n/2b5bb120-dfed-4da1-b3bf-e3bc2cd8de63:a3a794f9-5ab0-4e08-bdc0-6f6a700848ec:80|0000000955]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Previous cluster data cleanup time: 31
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: New cluster started [locId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, clusterId=3ca3d8bd-a3c2-49a6-93dc-67bc71dde17c, startTime=1605486949073]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Received activate request with BaselineTopology[id=0]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started state transition: true
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Received state change finish message: true
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Assigned mvcc coordinator [crd=MvccCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], nodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, ver=1605486949074, local=true, initialized=false]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Process alive nodes change [alives=1]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Baseline parameter 'baselineAutoAdjustEnabled' was changed from 'null' to 'true'
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Discovery coordinator saved new topology events [topVer=1, size=618, evts=1, lastEvt=1, saveTime=5]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Baseline parameter 'baselineAutoAdjustTimeout' was changed from 'null' to '0'
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: SQL parameter 'sql.disabledFunctions' was changed from 'null' to '[FILE_WRITE, CANCEL_SESSION, MEMORY_USED, CSVREAD, LINK_SCHEMA, MEMORY_FREE, FILE_READ, CSVWRITE, SESSION_ID, LOCK_MODE]'
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], crd=true, evt=NODE_JOINED, evtNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, customEvt=null, allowMerge=false, exchangeFreeSwitch=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Configured data regions started successfully [total=3]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Components activation performed in 52 ms.
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started cache [name=ignite-sys-cache, id=-2100569601, dataRegionName=sysMemPlc, mode=REPLICATED, atomicity=TRANSACTIONAL, backups=2147483647, mvcc=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Starting caches on local join performed in 151 ms.
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Skipped waiting for partitions release future (local node is joining) [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], err=null, rebalanced=true, wasRebalanced=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish proxy initialization, cacheName=ignite-sys-cache, localNodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Completed partition exchange [localNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], evt=NODE_JOINED, evtNode=ZookeeperClusterNode [id=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, addrs=[10.90.37.152, 10.0.0.157, 0:0:0:0:0:0:0:1%lo0, 127.0.0.1], order=1, loc=true, client=false], done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange timings [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], stage="Waiting in exchange queue" (107 ms), stage="Exchange parameters initialization" (5 ms), stage="Components activation" (52 ms), stage="Determine exchange type" (160 ms), stage="Preloading notification" (0 ms), stage="WAL history reservation" (0 ms), stage="After states restored callback" (96 ms), stage="Waiting for all single messages" (0 ms), stage="Affinity recalculation (crd)" (0 ms), stage="Collect update counters and create affinity messages" (0 ms), stage="Validate partitions states" (2 ms), stage="Assign partitions states" (0 ms), stage="Apply update counters" (0 ms), stage="Full message preparing" (12 ms), stage="Full message sending" (0 ms), stage="State finish message sending" (0 ms), stage="Exchange done" (11 ms), stage="Total time" (445 ms)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], stage="Coordinator affinity cache init [grp=ignite-sys-cache]" (149 ms) (parent=Determine exchange type), stage="First node affinity initialization (node join) [grp=ignite-sys-cache]" (6 ms) (parent=Determine exchange type)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=0], crd=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=0], force=false, evt=NODE_JOINED, node=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec]
+[19:35:49] Performance suggestions for grid 'vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec' (fix if possible)
+[19:35:49] To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+[19:35:49]   ^-- Disable grid events (remove 'includeEventTypes' from configuration)
+[19:35:49]   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+[19:35:49]   ^-- Specify JVM heap max size (add '-Xmx<size>[g|G|m|M|k|K]' to JVM options)
+[19:35:49]   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+[19:35:49]   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+[19:35:49] Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+[19:35:49]
+[19:35:49] To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+[19:35:49] Data Regions Configured:
+[19:35:49]   ^-- default [initSize=256.0 MiB, maxSize=3.2 GiB, persistence=false, lazyMemoryAllocation=true]
+[19:35:49]
+[19:35:49] Ignite node started OK (id=a3a794f9, instance name=vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec)
+[19:35:49] Topology snapshot [ver=1, locNode=a3a794f9, servers=1, clients=0, state=ACTIVE, CPUs=8, offheap=3.2GB, heap=3.6GB]
+[19:35:49]   ^-- Baseline [id=0, size=1, online=1, offline=0]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Performance suggestions for grid 'vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec' (fix if possible)
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: To disable, set -DIGNITE_PERFORMANCE_SUGGESTIONS_DISABLED=true
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- Disable grid events (remove 'includeEventTypes' from configuration)
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- Enable G1 Garbage Collector (add '-XX:+UseG1GC' to JVM options)
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- Specify JVM heap max size (add '-Xmx<size>[g|G|m|M|k|K]' to JVM options)
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- Set max direct memory size if getting 'OOME: Direct buffer memory' (add '-XX:MaxDirectMemorySize=<size>[g|G|m|M|k|K]' to JVM options)
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- Disable processing of calls to System.gc() (add '-XX:+DisableExplicitGC' to JVM options)
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Refer to this page for more performance suggestions: https://apacheignite.readme.io/docs/jvm-and-system-tuning
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: To start Console Management & Monitoring run ignitevisorcmd.{sh|bat}
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Data Regions Configured:
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- default [initSize=256.0 MiB, maxSize=3.2 GiB, persistence=false, lazyMemoryAllocation=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:
+
+>>> +----------------------------------------------------------------------+
+>>> Ignite ver. 2.8.1#20200521-sha1:864220966caa4157c4fee8a1bc85171623963604
+>>> +----------------------------------------------------------------------+
+>>> OS name: Mac OS X 10.15.5 x86_64
+>>> CPU(s): 8
+>>> Heap: 3.6GB
+>>> VM name: 9100@MBP-ARADHAKRISHNAN
+>>> Ignite instance name: vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec
+>>> Local node [ID=A3A794F9-5AB0-4E08-BDC0-6F6A700848EC, order=1, clientMode=false]
+>>> Local node addresses: [10.90.37.152/10.90.37.152, 10.0.0.157/10.0.0.157, /0:0:0:0:0:0:0:1%lo0, /127.0.0.1]
+>>> Local ports: TCP:10800 TCP:11211 TCP:47100
+
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Topology snapshot [ver=1, locNode=a3a794f9, servers=1, clients=0, state=ACTIVE, CPUs=8, offheap=3.2GB, heap=3.6GB]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO:   ^-- Baseline [id=0, size=1, online=1, offline=0]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Node started : [stage="Configure system pool" (43 ms),stage="Start managers" (715 ms),stage="Configure binary metadata" (102 ms),stage="Start processors" (639 ms),stage="Init metastore" (12 ms),stage="Finish recovery" (0 ms),stage="Join topology" (299 ms),stage="Await transition" (13 ms),stage="Await exchange" (475 ms),stage="Total time" (2298 ms)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, customEvt=DynamicCacheChangeBatch [id=51aaa7ec571-e906f8a8-1c8f-4423-a9be-8029acd4ff6d, reqs=ArrayList [DynamicCacheChangeRequest [cacheName=__vertx.subs, hasCfg=true, nodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[__vertx.subs], stopCaches=null, startGrps=[__vertx.subs], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false, exchangeFreeSwitch=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started cache [name=__vertx.subs, id=1052853818, dataRegionName=default, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], waitTime=0ms, futInfo=NA, mode=DISTRIBUTED]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=HashSet [], super=CompletableLatch [id=CompletableLatchUid [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], waitTime=0ms, futInfo=NA, mode=LOCAL]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], err=null, rebalanced=true, wasRebalanced=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish proxy initialization, cacheName=__vertx.subs, localNodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Completed partition exchange [localNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], evt=DISCOVERY_CUSTOM_EVT, evtNode=ZookeeperClusterNode [id=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, addrs=[10.90.37.152, 10.0.0.157, 0:0:0:0:0:0:0:1%lo0, 127.0.0.1], order=1, loc=true, client=false], done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange timings [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], stage="Waiting in exchange queue" (0 ms), stage="Exchange parameters initialization" (2 ms), stage="Update caches registry" (3 ms), stage="Start caches" (61 ms), stage="Affinity initialization on cache group start" (2 ms), stage="Determine exchange type" (0 ms), stage="Preloading notification" (0 ms), stage="WAL history reservation" (0 ms), stage="Wait partitions release" (5 ms), stage="Wait partitions release latch" (1 ms), stage="Wait partitions release" (0 ms), stage="After states restored callback" (41 ms), stage="Waiting for all single messages" (0 ms), stage="Affinity recalculation (crd)" (0 ms), stage="Collect update counters and create affinity messages" (0 ms), stage="Validate partitions states" (1 ms), stage="Assign partitions states" (0 ms), stage="Apply update counters" (0 ms), stage="Full message preparing" (4 ms), stage="Full message sending" (0 ms), stage="Exchange done" (1 ms), stage="Total time" (121 ms)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], stage="Affinity initialization on cache group start [grp=__vertx.subs]" (2 ms) (parent=Affinity initialization on cache group start)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=1], crd=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=1], force=false, evt=DISCOVERY_CUSTOM_EVT, node=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, customEvt=DynamicCacheChangeBatch [id=91aaa7ec571-e906f8a8-1c8f-4423-a9be-8029acd4ff6d, reqs=ArrayList [DynamicCacheChangeRequest [cacheName=__vertx.nodeInfo, hasCfg=true, nodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[__vertx.nodeInfo], stopCaches=null, startGrps=[__vertx.nodeInfo], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false, exchangeFreeSwitch=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started cache [name=__vertx.nodeInfo, id=-1847880105, dataRegionName=default, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], waitTime=0ms, futInfo=NA, mode=DISTRIBUTED]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=HashSet [], super=CompletableLatch [id=CompletableLatchUid [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2]]]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], waitTime=0ms, futInfo=NA, mode=LOCAL]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=2]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], err=null, rebalanced=true, wasRebalanced=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish proxy initialization, cacheName=__vertx.nodeInfo, localNodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Completed partition exchange [localNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], evt=DISCOVERY_CUSTOM_EVT, evtNode=ZookeeperClusterNode [id=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, addrs=[10.90.37.152, 10.0.0.157, 0:0:0:0:0:0:0:1%lo0, 127.0.0.1], order=1, loc=true, client=false], done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange timings [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], stage="Waiting in exchange queue" (0 ms), stage="Exchange parameters initialization" (0 ms), stage="Update caches registry" (0 ms), stage="Start caches" (4 ms), stage="Affinity initialization on cache group start" (2 ms), stage="Determine exchange type" (0 ms), stage="Preloading notification" (0 ms), stage="WAL history reservation" (0 ms), stage="Wait partitions release" (0 ms), stage="Wait partitions release latch" (1 ms), stage="Wait partitions release" (0 ms), stage="After states restored callback" (15 ms), stage="Waiting for all single messages" (0 ms), stage="Affinity recalculation (crd)" (0 ms), stage="Collect update counters and create affinity messages" (0 ms), stage="Validate partitions states" (0 ms), stage="Assign partitions states" (0 ms), stage="Apply update counters" (1 ms), stage="Full message preparing" (5 ms), stage="Full message sending" (0 ms), stage="Exchange done" (2 ms), stage="Total time" (30 ms)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], stage="Affinity initialization on cache group start [grp=__vertx.nodeInfo]" (2 ms) (parent=Affinity initialization on cache group start)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=2], crd=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=2], force=false, evt=DISCOVERY_CUSTOM_EVT, node=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], crd=true, evt=DISCOVERY_CUSTOM_EVT, evtNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, customEvt=DynamicCacheChangeBatch [id=d1aaa7ec571-e906f8a8-1c8f-4423-a9be-8029acd4ff6d, reqs=ArrayList [DynamicCacheChangeRequest [cacheName=__vertx.haInfo, hasCfg=true, nodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, clientStartOnly=false, stop=false, destroy=false, disabledAfterStartfalse]], exchangeActions=ExchangeActions [startCaches=[__vertx.haInfo], stopCaches=null, startGrps=[__vertx.haInfo], stopGrps=[], resetParts=null, stateChangeRequest=null], startCaches=false], allowMerge=false, exchangeFreeSwitch=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Started cache [name=__vertx.haInfo, id=2141067150, dataRegionName=default, mode=REPLICATED, atomicity=ATOMIC, backups=2147483647, mvcc=false]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], waitTime=0ms, futInfo=NA, mode=DISTRIBUTED]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partitions release latch: ServerLatch [permits=0, pendingAcks=HashSet [], super=CompletableLatch [id=CompletableLatchUid [id=exchange, topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3]]]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished waiting for partition release future [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], waitTime=0ms, futInfo=NA, mode=LOCAL]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: finishExchangeOnCoordinator [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=3]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish exchange future [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], err=null, rebalanced=true, wasRebalanced=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finish proxy initialization, cacheName=__vertx.haInfo, localNodeId=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Completed partition exchange [localNode=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, exchange=GridDhtPartitionsExchangeFuture [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], evt=DISCOVERY_CUSTOM_EVT, evtNode=ZookeeperClusterNode [id=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, addrs=[10.90.37.152, 10.0.0.157, 0:0:0:0:0:0:0:1%lo0, 127.0.0.1], order=1, loc=true, client=false], done=true, newCrdFut=null], topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3]]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange timings [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], stage="Waiting in exchange queue" (0 ms), stage="Exchange parameters initialization" (1 ms), stage="Update caches registry" (0 ms), stage="Start caches" (8 ms), stage="Affinity initialization on cache group start" (2 ms), stage="Determine exchange type" (0 ms), stage="Preloading notification" (0 ms), stage="WAL history reservation" (0 ms), stage="Wait partitions release" (2 ms), stage="Wait partitions release latch" (0 ms), stage="Wait partitions release" (0 ms), stage="After states restored callback" (14 ms), stage="Waiting for all single messages" (0 ms), stage="Affinity recalculation (crd)" (0 ms), stage="Collect update counters and create affinity messages" (0 ms), stage="Validate partitions states" (1 ms), stage="Assign partitions states" (0 ms), stage="Apply update counters" (1 ms), stage="Full message preparing" (6 ms), stage="Full message sending" (0 ms), stage="Exchange done" (1 ms), stage="Total time" (36 ms)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Exchange longest local stages [startVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], resVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], stage="Affinity initialization on cache group start [grp=__vertx.haInfo]" (2 ms) (parent=Affinity initialization on cache group start)]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Finished exchange init [topVer=AffinityTopologyVersion [topVer=1, minorTopVer=3], crd=true]
+Nov 15, 2020 7:35:49 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Skipping rebalancing (nothing scheduled) [top=AffinityTopologyVersion [topVer=1, minorTopVer=3], force=false, evt=DISCOVERY_CUSTOM_EVT, node=a3a794f9-5ab0-4e08-bdc0-6f6a700848ec]
+path: /Users/aradhakrishnan/Desktop/WorkSpace/ExampleVerticle/MainVerticle/src/main/resources/localConfig.json
+{"verticle1":"ExVert1","verticle2":"ExVert2"}
+Hello Vertx: org.example.vert1.ExVert1
+Hello Vertx: org.example.vert2.ExVert2
+true
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.97bee46d-18a9-4f08-8a56-f12bc6afc122 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.97bee46d-18a9-4f08-8a56-f12bc6afc122 msg: ping ExVert21
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.1828d30f-bb17-4418-9c5f-8ee78aaa998b what's my message: ping ExVert2
+Received resp from address: __vertx.reply.1828d30f-bb17-4418-9c5f-8ee78aaa998b msg: ping ExVert22
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.6c761162-398d-4e30-9a6f-79d005eee8c6 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.6c761162-398d-4e30-9a6f-79d005eee8c6 msg: ping ExVert23
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.3165e0b4-163b-4c11-8fab-e3f864f7f28a what's my message: ping ExVert2
+Received resp from address: __vertx.reply.3165e0b4-163b-4c11-8fab-e3f864f7f28a msg: ping ExVert24
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.ff36c57e-5f9a-4f80-8556-dc4e63d57671 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.ff36c57e-5f9a-4f80-8556-dc4e63d57671 msg: ping ExVert25
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.8e701e44-fbd7-4f11-9041-fa76d0bc72d0 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.8e701e44-fbd7-4f11-9041-fa76d0bc72d0 msg: ping ExVert26
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.6212b88c-5595-4359-8a8f-a812ba643fa0 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.6212b88c-5595-4359-8a8f-a812ba643fa0 msg: ping ExVert27
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.7fc73ba1-0304-4b68-8196-15de27136996 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.7fc73ba1-0304-4b68-8196-15de27136996 msg: ping ExVert28
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.4a53e80d-dd13-440f-8794-60ccf4e50b4a what's my message: ping ExVert2
+Received resp from address: __vertx.reply.4a53e80d-dd13-440f-8794-60ccf4e50b4a msg: ping ExVert29
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.d9768b58-55f3-488f-b834-5abd05422ebb what's my message: ping ExVert2
+Received resp from address: __vertx.reply.d9768b58-55f3-488f-b834-5abd05422ebb msg: ping ExVert210
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.a1b5a079-8756-41d0-8a94-94ecfc1b0884 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.a1b5a079-8756-41d0-8a94-94ecfc1b0884 msg: ping ExVert211
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.a5d06f03-e8cc-4934-bd05-5799253819a2 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.a5d06f03-e8cc-4934-bd05-5799253819a2 msg: ping ExVert212
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.fa51e248-1bee-4f49-b31d-762b9ef4b351 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.fa51e248-1bee-4f49-b31d-762b9ef4b351 msg: ping ExVert213
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.98c8f348-3dea-4c31-8176-24f1cf1ed606 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.98c8f348-3dea-4c31-8176-24f1cf1ed606 msg: ping ExVert214
+{"verticle1":"ExVert1"}
+Undeploying Second Verticle...
+Am I getting TRiggered vertx2
+Bye Vertx: org.example.vert2.ExVert2
+Verticle Undeployed Successfully
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.c1471a3e-a14d-4fd3-a63b-6074d328b0b2, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.c1471a3e-a14d-4fd3-a63b-6074d328b0b2, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.c1471a3e-a14d-4fd3-a63b-6074d328b0b2, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.c1471a3e-a14d-4fd3-a63b-6074d328b0b2, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.2a05ae45-2179-4b4e-86c0-9768b4311f26, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.2a05ae45-2179-4b4e-86c0-9768b4311f26, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.2a05ae45-2179-4b4e-86c0-9768b4311f26, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.2a05ae45-2179-4b4e-86c0-9768b4311f26, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.e1e68e8f-eb4d-428d-ab36-998368adf93c, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.e1e68e8f-eb4d-428d-ab36-998368adf93c, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.e1e68e8f-eb4d-428d-ab36-998368adf93c, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.e1e68e8f-eb4d-428d-ab36-998368adf93c, repliedAddress: exVert2HealthCheck
+	... 20 more
+{"verticle1":"ExVert1","verticle2":"ExVert2"}
+Hello Vertx: org.example.vert2.ExVert2
+true
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4375f21c-05c9-442a-82ea-c83267ad63bc, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4375f21c-05c9-442a-82ea-c83267ad63bc, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4375f21c-05c9-442a-82ea-c83267ad63bc, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4375f21c-05c9-442a-82ea-c83267ad63bc, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.1b58c78a-288d-45f2-9666-afe6e1443326 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.1b58c78a-288d-45f2-9666-afe6e1443326 msg: ping ExVert21
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5b288364-17e3-4393-a54c-ed9b664dd240, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5b288364-17e3-4393-a54c-ed9b664dd240, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5b288364-17e3-4393-a54c-ed9b664dd240, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.5b288364-17e3-4393-a54c-ed9b664dd240, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f984bfda-f551-4882-91e2-fe5500f33e98, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f984bfda-f551-4882-91e2-fe5500f33e98, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f984bfda-f551-4882-91e2-fe5500f33e98, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f984bfda-f551-4882-91e2-fe5500f33e98, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.ff7cf7bb-42ac-451e-ae86-c9500afe4cf6 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.ff7cf7bb-42ac-451e-ae86-c9500afe4cf6 msg: ping ExVert22
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.59dafaec-8cb4-4ec3-b6cb-6214e3fbfe84, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.59dafaec-8cb4-4ec3-b6cb-6214e3fbfe84, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.59dafaec-8cb4-4ec3-b6cb-6214e3fbfe84, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.59dafaec-8cb4-4ec3-b6cb-6214e3fbfe84, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.dad83051-4c9f-410c-95dd-239ae861ec10, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.dad83051-4c9f-410c-95dd-239ae861ec10, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.dad83051-4c9f-410c-95dd-239ae861ec10, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.dad83051-4c9f-410c-95dd-239ae861ec10, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.61662fed-28c4-450a-8934-9a21dbea4805 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.61662fed-28c4-450a-8934-9a21dbea4805 msg: ping ExVert23
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b0d31c72-5760-459d-9fc7-bfc6ffab85ad, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b0d31c72-5760-459d-9fc7-bfc6ffab85ad, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b0d31c72-5760-459d-9fc7-bfc6ffab85ad, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b0d31c72-5760-459d-9fc7-bfc6ffab85ad, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.420d7a01-41ca-40a9-98b2-121757db4b7b, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.420d7a01-41ca-40a9-98b2-121757db4b7b, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.420d7a01-41ca-40a9-98b2-121757db4b7b, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.420d7a01-41ca-40a9-98b2-121757db4b7b, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.b5f86d68-c48e-4935-b6de-937c9a716631 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.b5f86d68-c48e-4935-b6de-937c9a716631 msg: ping ExVert24
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.df1006fb-fb0b-4929-a1aa-36e5cf79fe25, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.df1006fb-fb0b-4929-a1aa-36e5cf79fe25, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.df1006fb-fb0b-4929-a1aa-36e5cf79fe25, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.df1006fb-fb0b-4929-a1aa-36e5cf79fe25, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.0d72d1cf-dbf1-4b92-942d-7810be959ee9, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.0d72d1cf-dbf1-4b92-942d-7810be959ee9, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.0d72d1cf-dbf1-4b92-942d-7810be959ee9, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.0d72d1cf-dbf1-4b92-942d-7810be959ee9, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.c3e9d3a3-bef3-49e3-9e81-40cb86b67686 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.c3e9d3a3-bef3-49e3-9e81-40cb86b67686 msg: ping ExVert25
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.fccedaad-27c4-4a15-a1bf-9e05593b3e73, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.fccedaad-27c4-4a15-a1bf-9e05593b3e73, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.fccedaad-27c4-4a15-a1bf-9e05593b3e73, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.fccedaad-27c4-4a15-a1bf-9e05593b3e73, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.7ca31854-1673-4df4-a996-c4fc427da987, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.7ca31854-1673-4df4-a996-c4fc427da987, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.7ca31854-1673-4df4-a996-c4fc427da987, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.7ca31854-1673-4df4-a996-c4fc427da987, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.f09f6d9d-2d80-4c31-b326-7284a32fc887 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.f09f6d9d-2d80-4c31-b326-7284a32fc887 msg: ping ExVert26
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b4b57764-11fe-4597-8675-828e70c00575, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b4b57764-11fe-4597-8675-828e70c00575, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b4b57764-11fe-4597-8675-828e70c00575, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.b4b57764-11fe-4597-8675-828e70c00575, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.a66debf5-9e8a-4378-a6eb-5a103a5cf8f9, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.a66debf5-9e8a-4378-a6eb-5a103a5cf8f9, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.a66debf5-9e8a-4378-a6eb-5a103a5cf8f9, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.a66debf5-9e8a-4378-a6eb-5a103a5cf8f9, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.4ad45b26-02ce-4d55-a029-3a85da046224 what's my message: ping ExVert2
+Received resp from address: __vertx.reply.4ad45b26-02ce-4d55-a029-3a85da046224 msg: ping ExVert27
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.94fee0b7-a4d5-43f1-a42e-91f19803b208, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.94fee0b7-a4d5-43f1-a42e-91f19803b208, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.94fee0b7-a4d5-43f1-a42e-91f19803b208, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.94fee0b7-a4d5-43f1-a42e-91f19803b208, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f30e2992-189d-43d3-8d00-e9ffa7f1f328, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f30e2992-189d-43d3-8d00-e9ffa7f1f328, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f30e2992-189d-43d3-8d00-e9ffa7f1f328, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.f30e2992-189d-43d3-8d00-e9ffa7f1f328, repliedAddress: exVert2HealthCheck
+	... 20 more
+Recieved message from : exVert2HealthCheck reply address: __vertx.reply.3d8d84b7-a1f2-4743-9a2d-134dfe2b78ec what's my message: ping ExVert2
+Received resp from address: __vertx.reply.3d8d84b7-a1f2-4743-9a2d-134dfe2b78ec msg: ping ExVert28
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.98913985-8904-49de-84f2-df9b296e93a8, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.98913985-8904-49de-84f2-df9b296e93a8, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.98913985-8904-49de-84f2-df9b296e93a8, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.98913985-8904-49de-84f2-df9b296e93a8, repliedAddress: exVert2HealthCheck
+	... 20 more
+io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4b3fcd92-6cdb-4828-9b45-35b323f0c9ce, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4b3fcd92-6cdb-4828-9b45-35b323f0c9ce, repliedAddress: exVert2HealthCheck
+	... 20 more
+Exception in thread "vert.x-eventloop-thread-5" io.reactivex.exceptions.OnErrorNotImplementedException: Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4b3fcd92-6cdb-4828-9b45-35b323f0c9ce, repliedAddress: exVert2HealthCheck
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:704)
+	at io.reactivex.internal.functions.Functions$OnErrorMissingConsumer.accept(Functions.java:701)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onError(ConsumerSingleObserver.java:47)
+	at io.reactivex.internal.operators.single.SingleMap$MapSingleObserver.onError(SingleMap.java:69)
+	at io.vertx.reactivex.impl.AsyncResultSingle.lambda$subscribeActual$0(AsyncResultSingle.java:56)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:150)
+	at io.vertx.reactivex.core.eventbus.EventBus$1.handle(EventBus.java:145)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.FutureImpl.doDispatch(FutureImpl.java:125)
+	at io.vertx.core.impl.FutureImpl.dispatch(FutureImpl.java:119)
+	at io.vertx.core.impl.FutureImpl.tryFail(FutureImpl.java:170)
+	at io.vertx.core.eventbus.impl.ReplyHandler.fail(ReplyHandler.java:63)
+	at io.vertx.core.eventbus.impl.ReplyHandler.lambda$new$0(ReplyHandler.java:42)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:922)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.handle(VertxImpl.java:889)
+	at io.vertx.core.impl.AbstractContext.emit(AbstractContext.java:181)
+	at io.vertx.core.impl.AbstractContext.lambda$dispatch$0(AbstractContext.java:84)
+	at io.vertx.core.impl.EventLoopContext.schedule(EventLoopContext.java:59)
+	at io.vertx.core.impl.AbstractContext.schedule(AbstractContext.java:94)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:84)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:89)
+	at io.vertx.core.impl.EventLoopContext.dispatch(EventLoopContext.java:24)
+	at io.vertx.core.impl.VertxImpl$InternalTimerHandler.run(VertxImpl.java:912)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:170)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: (TIMEOUT,-1) Timed out after waiting 30000(ms) for a reply. address: __vertx.reply.4b3fcd92-6cdb-4828-9b45-35b323f0c9ce, repliedAddress: exVert2HealthCheck
+	... 20 more
+Nov 15, 2020 7:36:57 PM org.apache.ignite.logger.java.JavaLogger info
+INFO: Invoking shutdown hook...
+Am I getting TRiggered vertx2
+Bye Vertx: org.example.vert2.ExVert2
+Am I getting TRiggered
+Bye Vertx: org.example.vert1.ExVert1
+Am I getting TRiggered vertx1
+[19:36:57] Ignite node stopped OK [name=vertx.ignite.node.a3a794f9-5ab0-4e08-bdc0-6f6a700848ec, uptime=00:01:08.058]
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
